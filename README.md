@@ -272,7 +272,7 @@ input — it always shows a clear, human-readable message instead.
 
 ## 👤 Author
 
-Developed by **[Your Name]** as part of a Python Development Internship.
+Developed by **Thanishaa B** as part of a Python Development Internship.
 
 ## 📄 License
 
