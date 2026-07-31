@@ -1,0 +1,16 @@
+# Core application (CLI, models, services, utils) uses only the Python
+# standard library - no installation needed to run main.py or the tests
+# for JSON/SQLite/CSV storage.
+
+# Required ONLY for the optional REST API layer (api/app.py):
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+python-multipart>=0.0.9  # needed for the /import/csv file-upload endpoint
+
+# Required ONLY to run tests/test_api.py (FastAPI's TestClient):
+httpx>=0.27
+
+# The Tkinter GUI (gui/app.py) uses tkinter, which ships with most
+# standard Python installations - no separate pip install needed.
+# (On some Linux distros you may need: sudo apt-get install python3-tk)

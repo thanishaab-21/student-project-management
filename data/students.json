@@ -1,0 +1,18 @@
+[
+    {
+        "student_id": "001",
+        "name": "Thanishaa B",
+        "age": 21,
+        "course": "CSE",
+        "email": "thani01@gmail.com",
+        "grade": "A"
+    },
+    {
+        "student_id": "002",
+        "name": "Sush",
+        "age": 21,
+        "course": "CSE",
+        "email": "sush21@gmail.com",
+        "grade": "A"
+    }
+]
